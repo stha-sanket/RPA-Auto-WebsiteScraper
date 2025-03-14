@@ -15,6 +15,7 @@ This Robocorp script scrapes laptop listings from eBay, extracting the product n
 *   Install these libraries using `pip install rpaframework rpaframework-browser lxml`
 
 ## Setup and Installation
+![Requirement Extension](https://github.com/stha-sanket/RPA-Auto-WebsiteScraper/blob/main/requirement-extension.png?raw=true)
 
 1.  **Install Robocorp Framework:**
     ```bash
