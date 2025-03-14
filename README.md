@@ -7,37 +7,22 @@ This Robocorp script scrapes laptop listings from eBay, extracting the product n
 ## Prerequisites
 
 *   **Python 3.7+**
-*   **Robocorp Framework**: `pip install robocorp-framework`
+*   **Robocorp Framework**: `get via extension`
 *   **Required Libraries**:
     *   `rpaframework`
     *   `rpaframework-browser`
     *   `lxml`
-*   Install these libraries using `pip install rpaframework rpaframework-browser lxml`
+*   Install these libraries using `pip install lxml` other libraries will be included in the extension
 
-## Setup and Installation
+## Setup and Installation Extension
 ![Requirement Extension](https://github.com/stha-sanket/RPA-Auto-WebsiteScraper/blob/main/requirement-extension.png?raw=true)
-
-1.  **Install Robocorp Framework:**
-    ```bash
-    pip install robocorp-framework
-    ```
-
-2.  **Install Required Libraries:**
-    ```bash
-    pip install rpaframework rpaframework-browser lxml
-    ```
+Download these extention on vs-code
 
 ## Usage
 
 1.  **Run the Robot:**
 
-    Navigate to the directory containing the robot script (`rpa_script.py`) and run:
-
-    ```bash
-    rcc task run
-    ```
-
-    This command will execute the `robot_spare_bin_python` task.
+    After downloading the extension you can see a Run Task above `@task` decorator
 
 ## Code Explanation
 
